@@ -1,0 +1,4 @@
+{
+    "rule_names": ["Allow SSH"],
+    "debug": false
+}
