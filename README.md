@@ -76,7 +76,7 @@ To run this script automatically, you can set up a cron job. Here's an example t
 2. Add the following line (adjust the path to your script):
 
    ```
-   0 * * * * /usr/bin/python3 /path/to/your/main.py >> /path/to/logfile.log 2>&1
+   */10 * * * * /usr/bin/python3 /path/to/your/main.py >> /path/to/logfile.log 2>&1
    ```
 
    This will run the script every hour and log the output to `logfile.log`.
